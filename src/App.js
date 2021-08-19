@@ -4,8 +4,7 @@ import {
 
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import Contacts from './Components/Contacts/Contacts';
@@ -25,6 +24,9 @@ function App() {
       <div>
 
         <Switch>
+        <Route exact path="/">
+            <Home />
+          </Route>
         <Route path="/home">
             <Home></Home>
           </Route>
@@ -68,9 +70,7 @@ function App() {
             <Contacts></Contacts>
           </Route>
           
-          <Route exact path="/">
-            <Home />
-          </Route>
+          
           <Route path="*">
             <Notfound />
           </Route>

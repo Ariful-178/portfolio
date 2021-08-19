@@ -13,7 +13,7 @@ const Projects = () => {
              <div className=" proj div2 col-sm-12 col-md-12 col-lg-8 col-xl-8  col-xxl-9 ">
                  
                  <div className="projects projects1" >
-                     <h3> <span style={{color:"gray",marginRight:"5px"}}style={{color:"gray",marginRight:"5px"}} >NAME:</span> Booking Flights</h3>
+                     <h3> <span style={{color:"gray",marginRight:"5px"}} >NAME:</span> Booking Flights</h3>
                      <h5><span style={{color:"gray",marginRight:"5px"}} >OVERVIEW:</span> This is a simple booking flight page using HTML,CSS and JavaScript . </h5>
                       <h5><span style={{color:"gray",marginRight:"5px"}} >DURATION:</span> 2 days</h5>   
                       <h5><a href="https://github.com/Ariful-178/a4-ticket">Github</a> 
