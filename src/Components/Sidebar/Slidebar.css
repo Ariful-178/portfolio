@@ -1,0 +1,162 @@
+.sidebar{
+    background-color:  #ffffff;
+    color: rgb(1, 11, 20);
+    height: 100vh;
+    background:linear-gradient(to right bottom, rgba(33, 37, 33, 0.3),
+    rgba(120, 185, 160, 0.7));
+    text-align: center;
+    
+    
+    
+}
+.logo{
+    font-size: 42px;
+    text-align: center;
+   font-weight: 400;
+   font-family: 'Style Script';
+   padding: 20px 0 20px 0;
+    
+    
+
+}
+
+.sidebar ul {
+    
+   align-items: center;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   
+    
+}
+.sidebar ul li{
+    text-decoration: none;
+    display: block;
+    border: 3px solid gray;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 17;
+    font-style:normal;
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+
+    
+}
+.sidebar ul li a{
+    display: block;
+    color: rgb(2, 5, 8);
+    text-decoration: none;
+    text-align: center;
+    padding-top: 9px;
+    
+}
+@media only screen and (max-width: 1920px) {
+
+    .sidebar ul li{
+        text-decoration: none;
+        display: block;
+        border: 2px solid rgb(180, 57, 77);
+        margin: 0 auto;
+        border-radius: 10px;
+        font-size: 17px;
+        font-style:normal;
+        height: 50px;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+    
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 1461px) {
+
+    .sidebar ul li{
+        text-decoration: none;
+        display: block;
+        border: 2px solid rgb(180, 57, 77);
+        margin: 0 auto;
+        border-radius: 10px;
+        font-size: 17px;
+        font-style:normal;
+        height: 50px;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+    
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 1161px) {
+
+.sidebar ul li{
+    text-decoration: none;
+    display: block;
+    border: 2px solid rgb(180, 57, 77);
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 17px;
+    font-style:normal;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+    
+}
+}
+
+@media only screen and (max-width: 991px) {
+
+    .sidebar ul li{
+        text-decoration: none;
+        display: inline-block;
+        border: 2px solid rgb(180, 57, 77);
+        padding: 0px;
+        margin: 10px ;
+        border-radius: 10px;
+        font-size:17px;
+        font-style: normal;
+        width:110px;
+        
+    }
+    
+    .sidebar{
+        background-color:  #ffffff;
+        color: rgb(1, 11, 20);
+        height: auto;
+        background:linear-gradient(to right bottom, rgba(163, 209, 240, 0.3),
+        rgba(75, 243, 178, 0.7));
+        
+        
+        
+    }
+
+   
+}
+@media only screen and (max-width: 355px) {
+
+    .sidebar ul li{
+        text-decoration: none;
+        display: inline-block;
+        border: 2px solid rgb(180, 57, 77);
+        padding: 0px;
+        margin: 10px ;
+        border-radius: 10px;
+        font-size:small;
+        font-style: normal;
+        width:80px;
+        
+    }
+}

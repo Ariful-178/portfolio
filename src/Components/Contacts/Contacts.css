@@ -1,0 +1,50 @@
+.contacts ul li  {
+ border: 3px solid rgb(139, 134, 134);
+ display: flex;
+ max-width: 600px;
+ width: 90%;
+ height: 90px;
+ text-decoration: none;
+ text-align: center;
+ margin:60px auto;
+ align-items: center;
+ border-radius: 10px;
+ justify-content: center;
+ font-size: 15px;
+ padding: 10px;
+}
+.wimage{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+.cspan{
+    color: red;
+    margin-left:10px ;
+}
+.cspan2{
+    font-size: 20px;
+}
+.contacts ul {
+    margin-top: 50px;
+    padding: 0;
+    
+}
+.contacts ul li a{
+    text-decoration: none;
+    color: brown;
+    margin-left: 20px;
+}
+.contacts{
+
+    overflow: auto;
+
+}
+@media only screen and (max-width: 991px) {
+
+    .div2{
+
+        height: auto !important;
+    }
+   
+  }

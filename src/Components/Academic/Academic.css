@@ -1,0 +1,21 @@
+table td{
+  border: 2px solid #b10606;
+  padding: 8px;
+}
+table th{
+    border: 2px solid #b10606;
+    padding: 8px;
+
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid #b10606;
+    max-width: 90%;
+    padding: 10px;
+    max-height:90% ;
+    height:400px;
+    margin: 100px auto;
+    font-size: 15px;
+  }

@@ -1,0 +1,58 @@
+.buttonlink{
+    display: block;
+    width: 200px;
+    height: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 400px auto ;
+
+}
+.buttonlink a{
+    
+    text-decoration: none;
+    font-size: 25px;
+    color: brown;
+}
+.linkbtn{
+   
+    display: flex;
+    margin: 0 auto;
+
+   
+    
+
+    
+}
+@media only screen and (max-width: 991px) {
+
+    .div2{
+
+        height: auto !important;
+        
+    }
+    .buttonlink{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px auto ;
+        text-align: center;
+    
+    }
+    .linkbtn{
+   
+        display:flex;
+        margin: 10px  auto;
+        text-align: center;
+
+    
+       
+        
+    
+        
+    }
+   
+  }

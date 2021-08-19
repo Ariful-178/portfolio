@@ -1,0 +1,35 @@
+.trainings{
+    display: block;
+    height: auto !important;
+    overflow: auto;
+}
+.training{
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+.training1{
+    margin-top:80px ;
+    width: 80%;
+    border: 2px solid rgb(129, 66, 66);
+    border-radius: 10px;
+    
+    padding: 15px;
+    text-align: center;
+
+
+}
+.training2{
+    margin-top:100px ;
+    width: 80%;
+    border: 2px solid rgb(129, 66, 66);
+    border-radius: 10px;
+    padding: 15px;
+    
+    
+    text-align: center;
+}
