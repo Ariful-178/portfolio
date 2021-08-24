@@ -76,6 +76,10 @@
     
         
     }
+    .sidebar{
+        border-bottom: none;
+        overflow: auto;
+    }
     
 
 
@@ -98,6 +102,10 @@
         font-weight: 600;
     
         
+    }
+    .sidebar{
+        border-bottom: none;
+        overflow: auto;
     }
     
 
@@ -124,6 +132,7 @@
 }
 .sidebar{
     border-bottom: none;
+    overflow: auto;
 }
 
 }
@@ -147,6 +156,7 @@
         
         color: rgb(1, 11, 20);
         height: auto;
+        overflow:auto;
        
         
         
