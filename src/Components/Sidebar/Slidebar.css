@@ -1,9 +1,10 @@
 .sidebar{
-    background-color:  #ffffff;
-    color: rgb(1, 11, 20);
+    /* background-color:  #ffffff;
+    color: rgb(246, 246, 246); */
     height: 100vh;
-    background:linear-gradient(to right bottom, rgba(33, 37, 33, 0.3),
-    rgba(120, 185, 160, 0.7));
+    background-color: #353353;
+    /* background:linear-gradient(to right bottom, rgba(33, 37, 33, 0.3),
+    rgba(120, 185, 160, 0.7)); */
     text-align: center;
     
     
@@ -15,6 +16,7 @@
    font-weight: 400;
    font-family: 'Style Script';
    padding: 20px 0 20px 0;
+   color: rgb(255, 255, 255);
     
     
 
@@ -22,7 +24,7 @@
 
 .sidebar ul {
     
-   align-items: center;
+   
    text-align: center;
    padding: 0;
    margin: 0;
@@ -32,10 +34,10 @@
 .sidebar ul li{
     text-decoration: none;
     display: block;
-    border: 3px solid gray;
+    border: 1px solid gray;
     margin: 0 auto;
     border-radius: 10px;
-    font-size: 17;
+    font-size: 20px;
     font-style:normal;
     height: 60px;
     width: 250px;
@@ -47,11 +49,14 @@
 }
 .sidebar ul li a{
     display: block;
-    color: rgb(2, 5, 8);
+    color: rgb(246, 250, 253);
     text-decoration: none;
     text-align: center;
     padding-top: 9px;
     
+}
+.sidebar{
+    border-right: 1px solid white;
 }
 @media only screen and (max-width: 1920px) {
 
@@ -71,6 +76,7 @@
     
         
     }
+    
 
 
 }
@@ -93,6 +99,7 @@
     
         
     }
+    
 
 
 }
@@ -115,6 +122,10 @@
 
     
 }
+.sidebar{
+    border-bottom: none;
+}
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -133,14 +144,18 @@
     }
     
     .sidebar{
-        background-color:  #ffffff;
+        
         color: rgb(1, 11, 20);
         height: auto;
-        background:linear-gradient(to right bottom, rgba(163, 209, 240, 0.3),
-        rgba(75, 243, 178, 0.7));
+       
         
         
         
+    }
+    .sidebar{
+        border-bottom: 1px solid white;
+        border-right:none ;
+        padding-bottom: 20px;
     }
 
    
@@ -158,5 +173,10 @@
         font-style: normal;
         width:80px;
         
+    }
+    .sidebar{
+        
+        border-right:none ;
+        padding-bottom: 20px;
     }
 }

@@ -11,12 +11,9 @@ const Home = () => {
                     <Sidebar></Sidebar>
                 </div>
 
-                <div className="div2   col-sm-12 col-md-12 col-lg-8 col-xl-8  col-xxl-9 text-center ">
-                    <div >
+                <div className="div2 about  col-sm-12 col-md-12 col-lg-8 col-xl-8  col-xxl-9 text-center ">
+                    <div  className="infoText" >
                         <img className="image" src={photo} alt="" />
-
-                    </div>
-                    <div className="infoText">
                         <h1>ARIFUL ISLAM</h1>
                         <h3>Software Engineer | Writer</h3>
                         <p style={{fontSize:"20px"}} >I count myself as a hardworking person.  To pursue a challenging career <br />
@@ -26,6 +23,7 @@ const Home = () => {
                           development in the relevant field. </p>
 
                     </div>
+                    
                     
                 </div>
 

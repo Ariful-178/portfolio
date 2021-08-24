@@ -4,11 +4,11 @@ import "./Slidebar.css"
 
 const activeStyle={
 
-        backgroundColor:"#A7E2DB",
-        borderRadius:"10px",
-        paddingTop:"9px",
-        height:"100%", 
-        color: "red"
+        backgroundColor:"rgb(179, 125, 233)",
+        borderRadius:"7px",
+        paddingTop:"10px",
+        height:"101%", 
+        color: "#45032b"
       }
 
 const Sidebar = () => {

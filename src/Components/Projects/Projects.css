@@ -1,7 +1,8 @@
 .proj{
     overflow:auto;
     padding: 200px;
-    margin-bottom: 200px;
+    
+    height: 100vh !important;
     
 }
 
@@ -19,7 +20,7 @@
 .projects a {
     text-decoration: none;
     margin-right: 5px;
-    color: rgb(73, 68, 78);
+    color: rgb(179, 125, 233);
     font-size: larger;
     text-transform:capitalize;
 }

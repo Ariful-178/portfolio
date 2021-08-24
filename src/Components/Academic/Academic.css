@@ -1,21 +1,24 @@
 table td{
-  border: 2px solid #b10606;
+  border: 2px solid #f3f0f0;
   padding: 8px;
+  color: aliceblue;
 }
 table th{
-    border: 2px solid #b10606;
+    border: 2px solid #ffffff;
     padding: 8px;
+    color: aliceblue;
 
   }
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    border: 2px solid #b10606;
+    border: 2px solid #ffffff;
     max-width: 90%;
     padding: 10px;
     max-height:90% ;
     height:400px;
     margin: 100px auto;
     font-size: 15px;
+    
   }

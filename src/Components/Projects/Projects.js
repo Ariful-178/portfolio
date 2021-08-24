@@ -22,7 +22,7 @@ const Projects = () => {
                  </div>
                  <div className="projects projects1" >
                      <h3><span style={{color:"gray",marginRight:"5px"}} >NAME:</span>Simple E-Commerce</h3>
-                     <h5><span style={{color:"gray",marginRight:"5px"}}>OVERVIEW: Simple E-Commerce with react js  </span>
+                     <h5><span style={{color:"gray",marginRight:"5px"}}>  </span>OVERVIEW: Simple E-Commerce with react js
                          </h5>
                       <h5><span style={{color:"gray",marginRight:"5px"}} >DURATION:</span> 10 days</h5>   
                       <h5><a href="https://github.com/Ariful-178/ema">github</a> 
