@@ -13,7 +13,7 @@ const Contacts = () => {
 
              <div className=" contacts div2 col-sm-12 col-md-12 col-lg-8 col-xl-9  col-xxl-9">
                  <ul>
-                     <li>Email: <span className="cspan cspan2">ariful.islam.cs.178@gmail.com</span></li>
+                     <li>Email: <span className="cspan cspan2"> ariful.islam.cs.178@gmail.com</span></li>
                      <li>Phone: <span className="cspan cspan2">0088 01521330869</span> </li>
                      <li>Phone: <span className="cspan cspan2">0088 01707565696</span></li>
                      <li>Whatsapp:<span className="cspan cspan2" >0088 01521330869</span> <br /> <img   className="wimage" src={wImage} alt="" /></li>

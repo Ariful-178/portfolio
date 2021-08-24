@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="div2 about  col-sm-12 col-md-12 col-lg-8 col-xl-8  col-xxl-9 text-center ">
                     <div  className="infoText" >
                         <img className="image" src={photo} alt="" />
-                        <h1>ARIFUL ISLAM</h1>
+                        <h1 style={{fontFamily:"sans-serif",marginBottom:"15px"}} >ARIFUL ISLAM</h1>
                         <h3>Software Engineer | Writer</h3>
                         <p style={{fontSize:"20px"}} >I count myself as a hardworking person.  To pursue a challenging career <br />
                          in a competitive world where enthusiasm, honesty, hard work and <br /> 

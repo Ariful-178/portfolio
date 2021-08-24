@@ -19,11 +19,12 @@
     margin-left: 10px;
 }
 .cspan{
-    color: red;
+    color: rgb(178, 243, 238);
     margin-left:10px ;
 }
 .cspan2{
-    font-size: 17px;
+    font-size: 19px;
+    
 }
 .contacts ul {
     margin-top: 50px;
@@ -32,8 +33,10 @@
 }
 .contacts ul li a{
     text-decoration: none;
-    color: brown;
+    color: rgb(107, 251, 227);
     margin-left: 20px;
+    font-size: 25px;
+    
 }
 .contacts{
 

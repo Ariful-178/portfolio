@@ -4,11 +4,11 @@ import "./Slidebar.css"
 
 const activeStyle={
 
-        backgroundColor:"rgb(179, 125, 233)",
+        background:" linear-gradient(to right, #353353, #4ca2cb)",
         borderRadius:"7px",
         paddingTop:"10px",
         height:"101%", 
-        color: "#45032b"
+        color: "#b9acbf"
       }
 
 const Sidebar = () => {
