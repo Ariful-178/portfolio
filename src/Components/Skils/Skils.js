@@ -6,11 +6,11 @@ const Skils = () => {
     return (
         <section>
         <div className=" row ">
-             <div className=" div1 col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
+             <div className=" div1 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-3">
                  <Sidebar></Sidebar>
              </div>
 
-             <div className=" skils div2 col-sm-12 col-md-12 col-lg-8 col-xl-9  col-xxl-9 ">
+             <div className=" skils div2 col-sm-12 col-md-12 col-lg-8 col-xl-8  col-xxl-9 ">
                  <div className="skilss">
                      <ul>
                      <li>HTML</li>

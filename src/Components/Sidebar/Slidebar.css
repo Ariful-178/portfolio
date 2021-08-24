@@ -15,7 +15,7 @@
     text-align: center;
    font-weight: 400;
    font-family: 'Style Script';
-   padding: 20px 0 20px 0;
+   padding: 80px 0 50px 0;
    color: rgb(255, 255, 255);
     
     
@@ -57,18 +57,19 @@
 }
 .sidebar{
     border-right: 1px solid white;
+    overflow: auto;
 }
 @media only screen and (max-width: 1920px) {
 
     .sidebar ul li{
         text-decoration: none;
         display: block;
-        border: 2px solid rgb(180, 57, 77);
+        border: 1px solid gray;
         margin: 0 auto;
         border-radius: 10px;
         font-size: 17px;
         font-style:normal;
-        height: 50px;
+        height: 60px;
         width: 250px;
         text-align: center;
         margin-bottom: 20px;
@@ -90,15 +91,15 @@
     .sidebar ul li{
         text-decoration: none;
         display: block;
-        border: 2px solid rgb(180, 57, 77);
+        border: 1px solid gray;
         margin: 0 auto;
         border-radius: 10px;
         font-size: 17px;
         font-style:normal;
-        height: 50px;
+        height: 60px;
         width: 250px;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-weight: 600;
     
         
@@ -117,7 +118,7 @@
 .sidebar ul li{
     text-decoration: none;
     display: block;
-    border: 2px solid rgb(180, 57, 77);
+    border: 1px solid gray;
     margin: 0 auto;
     border-radius: 10px;
     font-size: 17px;
@@ -125,7 +126,7 @@
     height: 50px;
     width: 250px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 600;
 
     
@@ -142,13 +143,14 @@
     .sidebar ul li{
         text-decoration: none;
         display: inline-block;
-        border: 2px solid rgb(180, 57, 77);
+        border: 1px solid gray;
         padding: 0px;
         margin: 10px ;
         border-radius: 10px;
         font-size:17px;
         font-style: normal;
         width:110px;
+        
         
     }
     
@@ -175,7 +177,7 @@
     .sidebar ul li{
         text-decoration: none;
         display: inline-block;
-        border: 2px solid rgb(180, 57, 77);
+        border: 1px solid gray;
         padding: 0px;
         margin: 10px ;
         border-radius: 10px;
