@@ -1,5 +1,7 @@
-import React from 'react';
+import React,{useRef,useEffect} from 'react';
+
 import { NavLink } from 'react-router-dom';
+import Music from '../Music/Music';
 import "./Slidebar.css"
 
 const activeStyle={
@@ -11,14 +13,27 @@ const activeStyle={
         color: "#b9acbf"
       }
 
+
+
 const Sidebar = () => {
+
+  
+  
+
+  
     return (
       
         
         <div className=" sidebar col-sm-12 col-lg-12   " >
 
           <p className="logo">ARIFUL ISLAM</p>
+          
               <ul>
+
+             
+
+             
+             
           <li >
             <NavLink activeStyle={activeStyle}  to="/home">ABOUT</NavLink>
           </li>
@@ -53,7 +68,10 @@ const Sidebar = () => {
           
           
         </ul>
+
+       
         </div>
+
         
       
     );

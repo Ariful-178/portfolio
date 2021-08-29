@@ -2,11 +2,31 @@ import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import "./Home.css"
 import photo from '../../photo/my-pic-1.jpg'
+import Music from '../Music/Music';
+
 
 const Home = () => {
+
+//    const fword= ()=> {
+       
+//     if (audioRef && audioRef.current){
+//         console.log(audioRef.current);
+//         audioRef.current.play()
+//         .then(()=>{console.log("running")})
+//         .catch((err)=>{console.log(err)})
+//     }
+
+
+//     }
+
+
+
+
     return (
        <section>
            <div className=" row ">
+               
+            
                 <div className=" div1  col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-3 ">
                     <Sidebar></Sidebar>
                 </div>
@@ -28,6 +48,7 @@ const Home = () => {
                 </div>
 
            </div>
+           
        </section>
     );
 };

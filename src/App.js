@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import Contacts from './Components/Contacts/Contacts';
+import Music from './Components/Music/Music';
 import Academic from './Components/Academic/Academic';
 import Projects from './Components/Projects/Projects';
 import LinkProfile from './Components/LinkProfile/LinkProfile';
@@ -20,15 +21,29 @@ import Cv from './Components/Cv/Cv';
 function App() {
   return (
     <div className="App">
+      
       <Router>
+      <Music></Music>
+      
+        
       <div>
+      
 
         <Switch>
+        
+
+          
+          
         <Route exact path="/">
+          
             <Home />
+            
+            
           </Route>
         <Route path="/home">
             <Home></Home>
+            
+            
           </Route>
          
           <Route path="/contacts">
