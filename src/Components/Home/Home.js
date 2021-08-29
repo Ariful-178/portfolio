@@ -2,22 +2,12 @@ import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import "./Home.css"
 import photo from '../../photo/my-pic-1.jpg'
-import Music from '../Music/Music';
+
 
 
 const Home = () => {
 
-//    const fword= ()=> {
-       
-//     if (audioRef && audioRef.current){
-//         console.log(audioRef.current);
-//         audioRef.current.play()
-//         .then(()=>{console.log("running")})
-//         .catch((err)=>{console.log(err)})
-//     }
 
-
-//     }
 
 
 

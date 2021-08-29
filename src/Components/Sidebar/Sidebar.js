@@ -1,7 +1,7 @@
-import React,{useRef,useEffect} from 'react';
+import React from 'react';
 
 import { NavLink } from 'react-router-dom';
-import Music from '../Music/Music';
+
 import "./Slidebar.css"
 
 const activeStyle={

@@ -1,5 +1,5 @@
 
-import React,{useRef,useEffect} from 'react';
+import React from 'react';
 import song from '../../audio/AK - Our Destination (1) (mp3cut.net).mp3'
 
 const Music = () => {
