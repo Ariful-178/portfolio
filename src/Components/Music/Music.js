@@ -14,7 +14,7 @@ const Music = () => {
              <div>
                
 
-               <video style={{display:"none"}}  controls loop   autoPlay >
+               <video style={{display:"none"}}  controls loop muted={false}   autoPlay >
                  <source src={song}  type="audio/mp3" ></source>
                </video>
            </div>

@@ -2,6 +2,10 @@ import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import "./Home.css"
 import photo from '../../photo/my-pic-1.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  } from '@fortawesome/free-brands-svg-icons'
+import { faLaptopCode, faUserEdit } from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -25,7 +29,7 @@ const Home = () => {
                     <div  className="infoText" >
                         <img className="image" src={photo} alt="" />
                         <h1 style={{fontFamily:"sans-serif",marginBottom:"15px",fontWeight:"normal"}} >ARIFUL ISLAM</h1>
-                        <h3>Software Engineer | Writer</h3>
+                        <h3>Software Engineer <FontAwesomeIcon style={{marginLeft:"5px",height:"30px",width:"40px"}} icon={faLaptopCode} /> | Writer <FontAwesomeIcon style={{marginLeft:"5px",height:"30px",width:"40px"}} icon={faUserEdit} /></h3>
                         <p style={{fontSize:"20px"}} >I count myself as a hardworking person.  To pursue a challenging career <br />
                          in a competitive world where enthusiasm, honesty, hard work and <br /> 
                          passion will support me to grow myself as well as utilize <br /> 
