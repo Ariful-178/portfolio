@@ -2,7 +2,7 @@ import React from 'react';
 import Sidebar from './../Sidebar/Sidebar';
 import wImage from '../../photo/whats-app-q-code.JPG'
 import './Contacts.css'
-import { faFacebook, faWhatsapp, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faWhatsapp, faSkype } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 

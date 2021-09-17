@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import Sidebar from './../Sidebar/Sidebar';
 import './Skils.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
